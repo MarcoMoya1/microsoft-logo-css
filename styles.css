@@ -9,29 +9,45 @@ body{
 }
 
 .container{
-    background-color: grey;
-    width: 400px;
-    height: 400px;
+    background-color: azure;
+    width: 450px;
+    height: 450px;
+    display: flex;
+    flex-direction: row column;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
 }
 
 #red-square{
-    background-color: red;
-    text-decoration: line-through;
-    
-    
+    background-color: #f65314;
+    /* text-decoration: line-through; */
+    order: 1;
+    width: 200px;
+    height: 200px;
 }
 
 #yellow-square{
-    background-color: yellow;
-    text-decoration: line-through;
+    background-color: #ffbb00;
+    /* text-decoration: line-through; */
+    order: 4;
+    width: 200px;
+    height: 200px;
 }
 
 #blue-square{
-    background-color: blue;
-    text-decoration: line-through;
+    background-color: #00a1f1;
+    /* text-decoration: line-through; */
+    order: 3;
+    width: 200px;
+    height: 200px;
+
 }
 
 #green-square{
-    background-color: green;
-    text-decoration: line-through;
+    background-color: #7cbb00;
+    /* text-decoration: line-through; */
+    order: 2;
+    width: 200px;
+    height: 200px;
+
 }
