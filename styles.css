@@ -16,6 +16,7 @@ body{
     flex-direction: row column;
     justify-content: space-evenly;
     flex-wrap: wrap;
+    align-items: center;
 }
 
 #red-square{
